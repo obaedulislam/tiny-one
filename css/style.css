@@ -15,7 +15,13 @@ body{
 
 
 /* ===|| Header CSS Start ||=== */
-header{
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:9999;
+    overflow:hidden;
     padding: 15px 0;
     background-color: #fcdb00;
 }
@@ -41,6 +47,7 @@ header .menu ul li a:hover{
 .slider{
     background-color: #fcdb00;
     padding-bottom: 65px;
+    padding-top:100px;
 }
 .slider-text{
     margin-top: 70px;
